@@ -43,6 +43,11 @@
 
           <!-- Przycisk kontaktowy i hamburger -->
           <div class="col-xl-3 col-md-6 col-6 text-right">
+            <div class="hamburger-menu d-md-block d-lg-none">
+              <a href="javascript:void(0);" @click="toggleMobileMenu">
+                <i class="far fa-bars"></i>
+              </a>
+            </div>
             <div class="main-header-right-one d-none d-xl-block">
               <div class="donate">
                 <NuxtLink to="/aktualnosci" class="theme_btn active-btn ">
