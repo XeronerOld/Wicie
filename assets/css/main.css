@@ -2243,10 +2243,13 @@ section-title
   font-size: 10px;
 }
 .main-menu ul li > a.active {
-  color: #0096d8;
+  color: #00aa55;
+}
+.router-link-exact-active {
+    color: #00aa55 !important;
 }
 .main-menu ul li:hover > a {
-  color: #0096d8;
+  color: #00aa55;
 }
 .main-menu ul li:hover > a::before {
   right: 0;
@@ -2651,7 +2654,7 @@ section-title
 .page-title-area::before {
   content: "";
   position: absolute;
-  background: url(../img/slider/palace-bg1.png) no-repeat;
+  background: url(../img/slider/palace-bg1.png);
   width: 100%;
   height: 363px;
   left: 0;
@@ -2675,7 +2678,7 @@ section-title
 }
 
 .page-title {
-  padding-top: 260px;
+  padding-top: 200px;
   position: relative;
   z-index: 3;
 }

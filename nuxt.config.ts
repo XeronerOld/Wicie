@@ -14,7 +14,6 @@ export default defineNuxtConfig({
         { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
       ],
       script: [
-        { src: 'https://cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js', 'data-cfasync': 'false' },
         { src: '/js/vendor/modernizr-3.5.0.min.js' },
         { src: '/js/vendor/jquery-3.5.1.min.js' },
         { src: '/js/popper.min.js' },
@@ -32,7 +31,8 @@ export default defineNuxtConfig({
         { src: '/js/jquery.magnific-popup.min.js' },
         { src: '/js/jquery.easypiechart.js' },
         { src: '/js/tilt.jquery.js' },
-        { src: '/js/plugins.js' }
+        { src: '/js/plugins.js' },
+        { src: '/js/lightbox.min.js' }
       ]
     }
   },
@@ -48,7 +48,8 @@ export default defineNuxtConfig({
     '~/assets/css/metisMenu.css',
     '~/assets/css/nice-select.css',
     '~/assets/css/slick.css',
-    '~/assets/css/main.css'
+    '~/assets/css/main.css',
+    '~/assets/css/lightbox.min.css'
   ],
   // Opcjonalnie: jeśli używasz PostCSS lub inne narzędzia
   postcss: {
