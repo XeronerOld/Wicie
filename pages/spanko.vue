@@ -5,6 +5,23 @@
           class="single-slider slider-height pos-rel d-flex align-items-center align-items-lg-end"
           style="background-image: url(/img/slider/slider1.jpg); height: 300px;"
       >
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="page-title text-center mt-0 pb-50">
+                <h1>Spanko</h1>
+                <div class="breadcrumb">
+                  <ul class="breadcrumb-list">
+                    <li><a href="/">Strona Główna</a></li>
+                    <li>
+                      <NuxtLink to="/spanko">Spanko</NuxtLink>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Header Section -->
@@ -24,7 +41,7 @@
           <div class="gallery mb-30" style="height: 320px;">
             <div class="gallery__img" :style="`background-image: url(${obj.image_url})`"></div>
             <div class="gallery__text d-flex flex-column">
-              <a  :href="obj.website" class="gallery-title mb-1 text-center">{{ obj.name }}</a>
+              <a :href="obj.website" class="gallery-title mb-1 text-center" target="_blank">{{ obj.name }}</a>
               <div class="gallery__content--meta d-flex flex-column align-items-center gap-0">
                 <a
                     :href="obj.website"
@@ -47,6 +64,9 @@
 </template>
 
 <script lang="ts" setup>
+import { useHead } from '@unhead/vue';
+
+// Lista obiektów noclegowych
 const objects = [
   {
     "name": "3W",
@@ -273,6 +293,51 @@ const objects = [
     "image_url": "/img/spanko/apartamenty-zielonygaj.jpg"
   }
 ];
+
+// Definiowanie metadanych SEO z domeną morzewicie.pl
+useHead({
+  title: 'Spanko w Wiciu - Noclegi nad Morzem | Morze Wicie',
+  meta: [
+    {
+      name: 'description',
+      content: 'Znajdź idealny nocleg w Wiciu! Pensjonaty, domki, agroturystyka i pola namiotowe dla 6 tys. gości. Sprawdź ofertę na morzewicie.pl!',
+    },
+    {
+      name: 'keywords',
+      content: 'Wicie noclegi, spanko Wicie, pensjonaty Wicie, domki Wicie, agroturystyka Wicie, morzewicie.pl',
+    },
+    {
+      name: 'robots',
+      content: 'index, follow',
+    },
+    {
+      property: 'og:title',
+      content: 'Spanko w Wiciu - Noclegi nad Morzem | Morze Wicie',
+    },
+    {
+      property: 'og:description',
+      content: 'Wybierz nocleg w Wiciu - od pensjonatów po domki i pola namiotowe. Komfortowy wypoczynek nad Bałtykiem na morzewicie.pl!',
+    },
+    {
+      property: 'og:image',
+      content: 'https://morzewicie.pl/img/slider/slider1.jpg', // Przykładowy obraz, możesz zmienić na bardziej reprezentacyjny dla noclegów
+    },
+    {
+      property: 'og:url',
+      content: 'https://morzewicie.pl/spanko',
+    },
+    {
+      property: 'og:type',
+      content: 'website',
+    },
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://morzewicie.pl/spanko',
+    },
+  ],
+});
 </script>
 
 <style scoped>
@@ -283,6 +348,7 @@ const objects = [
 .single-slider {
   background-size: cover;
   background-position: center;
+  min-height: initial;
 }
 
 .gallery {
@@ -306,6 +372,11 @@ const objects = [
   font-size: 1rem;
   font-weight: bold;
   color: #333;
+  text-decoration: none;
+}
+
+.gallery-title:hover {
+  color: #28a745; /* Zielony kolor po najechaniu */
 }
 
 .gallery__content--meta a {
@@ -319,7 +390,7 @@ const objects = [
 }
 
 .gallery__content--meta a:hover {
-  color: #28a745; /* Pomarańczowy kolor po najechaniu */
+  color: #28a745; /* Zielony kolor po najechaniu */
   font-weight: bold;
 }
 

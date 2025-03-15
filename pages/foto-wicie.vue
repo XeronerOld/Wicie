@@ -4,7 +4,25 @@
       <div
           class="single-slider slider-height pos-rel d-flex align-items-center align-items-lg-end"
           style="background-image: url(/img/slider/slider1.jpg); height: 300px;"
-      ></div>
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="page-title text-center mt-0 pb-50">
+                <h1>Foto Wicie</h1>
+                <div class="breadcrumb">
+                  <ul class="breadcrumb-list">
+                    <li><a href="/">Strona Główna</a></li>
+                    <li>
+                      <NuxtLink to="/foto-wicie">Foto Wicie</NuxtLink>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Gallery Section -->
@@ -25,9 +43,10 @@
 </template>
 
 <script lang="ts" setup>
-
 import MasonryGrid from "~/components/MasonryGrid.vue";
+import { useHead } from '@unhead/vue';
 
+// Definiowanie galerii
 const gallery = [
   {
     name: "Wicie jesienią",
@@ -166,7 +185,52 @@ const gallery = [
       "5e4ee25d44983022089835.jpg"
     ]
   }
-]
+];
+
+// Definiowanie metadanych SEO z domeną morzewicie.pl
+useHead({
+  title: 'Foto Wicie - Galeria Zdjęć z Wicia | Morze Wicie',
+  meta: [
+    {
+      name: 'description',
+      content: 'Przeglądaj galerię zdjęć z Wicia - plaże, przyroda, festyny wiejskie i widoki z lotni. Odkryj piękno Wicia o każdej porze roku na morzewicie.pl!',
+    },
+    {
+      name: 'keywords',
+      content: 'Wicie zdjęcia, galeria Wicie, foto Wicie, plaże Wicie, festyn Wicie, Wicie jesienią, Wicie zimą, morzewicie.pl',
+    },
+    {
+      name: 'robots',
+      content: 'index, follow',
+    },
+    {
+      property: 'og:title',
+      content: 'Foto Wicie - Galeria Zdjęć z Wicia | Morze Wicie',
+    },
+    {
+      property: 'og:description',
+      content: 'Obejrzyj piękne zdjęcia Wicia - plaże, festyny, przyroda i widoki z lotni. Sprawdź galerię na morzewicie.pl!',
+    },
+    {
+      property: 'og:image',
+      content: 'https://morzewicie.pl/img/slider/slider1.jpg', // Pełny URL do obrazu głównego
+    },
+    {
+      property: 'og:url',
+      content: 'https://morzewicie.pl/foto-wicie',
+    },
+    {
+      property: 'og:type',
+      content: 'website',
+    },
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://morzewicie.pl/foto-wicie',
+    },
+  ],
+});
 </script>
 
 <style scoped>
@@ -181,5 +245,9 @@ h2 {
   h2 {
     font-size: 1.5rem;
   }
+}
+
+.single-slider {
+  min-height: initial;
 }
 </style>

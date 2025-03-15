@@ -126,14 +126,14 @@ onUnmounted(() => {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
   background: none;
   img {
-    height: 60px;
+    height: 80px;
   }
 }
 
 /* Styl dla przewiniętej wersji */
 .sticky-header.scrolled {
-  background-color: #263238;
-  transition: background-color 0.1s ease;
+  background-color: #1d2124;
+  transition: background-color 0.3s ease;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   img {
     height: 80px;
@@ -147,7 +147,7 @@ onUnmounted(() => {
   left: 0;
   width: 100%;
   z-index: 999;
-  background-color: #263238;
+  background-color: #1d2124;
 }
 
 /* Styl dla głównego obszaru nagłówka */
@@ -201,6 +201,7 @@ onUnmounted(() => {
 @media (max-width: 991px) {
   .main-header-area {
     padding: 10px 0;
+    background: #1d2124;
   }
 
   .logo img {

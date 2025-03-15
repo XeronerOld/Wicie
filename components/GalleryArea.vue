@@ -238,7 +238,7 @@ const objects = [
     "email": "domkiwikar@gmail.com",
     "phone": "662 216 123",
     "facebook": "",
-    "image_url": "/img/spanko/wikar.jpeg"
+    "image_url": "/img/spanko/wikar.jpg"
   },
   {
     "name": "ZACISZE pokoje gościnne, pole namiotowe - Ewa i Zenon Hińc",
