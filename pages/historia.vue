@@ -30,7 +30,7 @@
           </p>
         </div>
         <div class="col-12">
-          <h1 class="mt-4">Tak więc, przyjechaliśmy do Wicia i jesteśmy w Wiciu</h1>
+          <h1 class="mt-4 text-dark">Tak więc, przyjechaliśmy do Wicia i jesteśmy w Wiciu</h1>
         </div>
       </div>
 

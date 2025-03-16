@@ -53,7 +53,7 @@ const handleAccept = () => {
   background: #fff;
 }
 body {
-  background: #f9f9f9;
+  background: #fff;
 }
 html body a {
   color:#000;
