@@ -49,4 +49,13 @@ const handleAccept = () => {
 * {
   text-decoration: none !important;
 }
+.gallery {
+  background: #fff;
+}
+body {
+  background: #f9f9f9;
+}
+html body a {
+  color:#000;
+}
 </style>
