@@ -50,7 +50,7 @@ import { useHead } from '@unhead/vue';
 const gallery = [
   {
     name: "Wicie jesienią",
-    url: "wicie-jesienią",
+    url: "wicie-jesienia",
     photos: [
       "5e4ee168a8f09149132096.jpg",
       "5e4ee168a88f6054802649.jpg",
@@ -72,7 +72,7 @@ const gallery = [
   },
   {
     name: "Odbywający się co roku festyn wiejski w Wiciu",
-    url: "odbywający-się-co-roku-festyn-wiejski-w-wiciu",
+    url: "odbywajacy-sie-co-roku-festyn-wiejski-w-wiciu",
     photos: [
       "5e4ee230a3d9d897200243.jpg",
       "5e4ee230a3929675892972.jpg",
@@ -97,7 +97,7 @@ const gallery = [
   },
   {
     name: "Kolejne zdjęcia z wysokości, tym razem z pokładu lotni",
-    url: "kolejne-zdjęcia-z-wysokości-tym-razem-z-pokład",
+    url: "kolejne-zdjecia-z-wysokosci-tym-razem-z-poklad",
     photos: [
       "5e4ee23b4cd4c533759445.jpg",
       "5e4ee23b4ea97432157831.jpg",
@@ -121,7 +121,7 @@ const gallery = [
   },
   {
     name: "Nasze plaże",
-    url: "nasze-plaże",
+    url: "nasze-plaze",
     photos: [
       "5e4ee245be8ee630571552.jpg",
       "5e4ee245c063a563743753.jpg",
@@ -147,7 +147,7 @@ const gallery = [
   },
   {
     name: "Bliskość przyrody to jeden z naszych największych atutów",
-    url: "bliskość-przyrody-to-jeden-z-naszych-największych-atutów",
+    url: "bliskosc-przyrody-to-jeden-z-naszych-najwiekszych-atutow",
     photos: [
       '5e4ee252bbcf5414836536.jpg',
       '5e4ee252bbd9e678874336.jpg',
@@ -169,7 +169,7 @@ const gallery = [
   },
   {
     name: "Wicie zimą",
-    url: "wicie-zimą",
+    url: "wicie-zima",
     photos: [
       "5e4ee25c65f33571476672.jpg",
       "5e4ee25c68cb1691105457.jpg",

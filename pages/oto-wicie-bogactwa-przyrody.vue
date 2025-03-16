@@ -16,7 +16,7 @@
                       <NuxtLink to="/historia">Historia</NuxtLink>
                     </li>
                     <li>
-                      <NuxtLink to="/przyroda-w-wiciu">Przyroda w Wiciu</NuxtLink>
+                      <NuxtLink to="/oto-wicie-bogactwa-przyrody">Przyroda w Wiciu</NuxtLink>
                     </li>
                   </ul>
                 </div>

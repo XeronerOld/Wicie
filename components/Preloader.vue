@@ -13,6 +13,6 @@ const isLoading = ref(true);
 onMounted(() => {
   setTimeout(() => {
     isLoading.value = false;
-  }, 2000); // Symulacja ładowania
+  }, 500); // Symulacja ładowania
 });
 </script>

@@ -13,7 +13,7 @@
                 <ul class="breadcrumb-list">
                   <li><a href="/">Strona Główna</a></li>
                   <li>
-                    <NuxtLink class="active" to="/aktualności">Aktualności</NuxtLink>
+                    <NuxtLink class="active" to="/aktualnosci">Aktualności</NuxtLink>
                   </li>
                 </ul>
               </div>

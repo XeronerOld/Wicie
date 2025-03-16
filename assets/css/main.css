@@ -2176,6 +2176,9 @@ section-title
   left: 0;
   right: 0;
   padding: 10px 0 10px 0;
+  height: 90px;
+  display: flex;
+  align-items: center;
 }
 .main-header-area .logo-img img {
   max-width: 100%;
@@ -2231,7 +2234,7 @@ section-title
   font-size: 14px;
   line-height: 1;
   font-family: "Roboto", sans-serif;
-  padding: 40px 0;
+  padding: 30px 0px 11px 0px;
   display: inline-block;
   position: relative;
   font-weight: 700;
@@ -2715,7 +2718,7 @@ section-title
 }
 
 .breadcrumb {
-  background: 0;
+  background: transparent !important;
   justify-content: center;
   padding: 0;
 }

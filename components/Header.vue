@@ -148,16 +148,26 @@ onUnmounted(() => {
   width: 100%;
   z-index: 999;
   background-color: #1d2124;
+  li {
+    a {
+      color:white;
+    }
+  }
 }
 
 /* Styl dla głównego obszaru nagłówka */
 .main-header-area {
   padding: 0; /* Dodaj padding dla lepszego wyglądu */
 }
-
+.logo {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
 /* Styl dla logo */
 .logo img {
-  max-height: 80px; /* Dostosuj rozmiar logo */
+  max-height: 60px; /* Dostosuj rozmiar logo */
 }
 
 /* Zapewnij, że submenu działa poprawnie */
