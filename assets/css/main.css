@@ -44,7 +44,7 @@ body {
   line-height: 26px;
   font-weight: 400;
   font-style: normal;
-  color: #b5b5b5;
+  color: #666;
 }
 
 .f-left {
@@ -2245,7 +2245,7 @@ section-title
 .main-menu ul li > a.active {
   color: #00aa55;
 }
-.router-link-exact-active {
+.router-link-exact-active:not(.theme_btn) {
     color: #00aa55 !important;
 }
 .main-menu ul li:hover > a {
@@ -3071,7 +3071,7 @@ input.main-search-input:-ms-input-placeholder {
 }
 .single-slider::before {
   content: "";
-  background: #1a4881b5;
+  background: #090909b5;
   opacity: 0.9;
   position: absolute;
   left: 0;
@@ -6347,6 +6347,9 @@ input.main-search-input:-ms-input-placeholder {
 }
 .blog__img {
   overflow: hidden;
+  height: 300px;
+  display: flex;
+  align-items: center;
 }
 .blog__img img {
   width: 100%;

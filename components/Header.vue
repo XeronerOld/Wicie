@@ -20,7 +20,7 @@
                 <ul>
                   <li><a href="/">Strona Główna</a></li>
                   <li>
-                    <NuxtLink to="/o-wiciach">O Wiciach <i class="far fa-chevron-down"></i></NuxtLink>
+                    <a href="javascript:void(0);">O Wiciach <i class="far fa-chevron-down"></i></a>
                     <ul class="submenu">
                       <li><NuxtLink to="/historia">Historia</NuxtLink></li>
                       <li><NuxtLink to="/geografia">Geografia</NuxtLink></li>
@@ -28,7 +28,7 @@
                     </ul>
                   </li>
                   <li>
-                    <NuxtLink to="/dla-turystow">Dla turystów <i class="far fa-chevron-down"></i></NuxtLink>
+                    <a href="javascript:void(0);">Dla turystów <i class="far fa-chevron-down"></i></a>
                     <ul class="submenu">
                       <li><NuxtLink to="/warto-odwiedzic">Warto odwiedzić</NuxtLink></li>
                       <li><NuxtLink to="/atrakcje">Atrakcje</NuxtLink></li>
@@ -66,7 +66,7 @@
         <ul>
           <li><NuxtLink to="/" @click="toggleMobileMenu">Strona Główna</NuxtLink></li>
           <li>
-            <NuxtLink to="/o-wiciach" @click="toggleMobileMenu">O Wiciach</NuxtLink>
+            <a href="javascript:void(0);" @click="toggleMobileMenu">O Wiciach</a>
             <ul class="submenu">
               <li><NuxtLink to="/historia" @click="toggleMobileMenu">Historia</NuxtLink></li>
               <li><NuxtLink to="/geografia" @click="toggleMobileMenu">Geografia</NuxtLink></li>
@@ -74,7 +74,7 @@
             </ul>
           </li>
           <li>
-            <NuxtLink to="/dla-turystow" @click="toggleMobileMenu">Dla turystów</NuxtLink>
+            <a href="javascript:void(0);" @click="toggleMobileMenu">Dla turystów</a>
             <ul class="submenu">
               <li><NuxtLink to="/warto-odwiedzic" @click="toggleMobileMenu">Warto odwiedzić</NuxtLink></li>
               <li><NuxtLink to="/atrakcje" @click="toggleMobileMenu">Atrakcje</NuxtLink></li>

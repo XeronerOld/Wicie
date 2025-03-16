@@ -16,7 +16,7 @@
               </h6>
               <ul class="btn-list mb-45 animated wow fadeInUp" data-wow-delay=".5s">
                 <li>
-                  <NuxtLink to="/about" class="theme_btn active-btn">
+                  <NuxtLink to="/historia" class="theme_btn active-btn">
                     Czytaj więcej - Oto Wicie <i class="far fa-long-arrow-right"></i>
                   </NuxtLink>
                 </li>

@@ -40,7 +40,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="img-view img-view-01">
-                  <img src="/img/historia/colage.png" alt="Wicie - collage zdjęć">
+                  <img :src="'/img/historia/colage.png'" alt="Wicie - collage zdjęć">
                 </div>
               </div>
             </div>
