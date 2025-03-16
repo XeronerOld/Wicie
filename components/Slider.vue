@@ -9,7 +9,7 @@
           <div class="col-xl-6 col-lg-6 col-md-10 d-flex align-items-center">
             <div class="slider__content slider-one-content text-left">
               <h1 class="main-title mb-25 animated wow fadeInUp" data-wow-delay=".3s">
-                A mo<del style="color:red;">ż</del>rze Wicie ?
+                A mo<del style="color:red;text-decoration: line-through !important;">ż</del>rze Wicie ?
               </h1>
               <h6 class="sub-title2 mb-40 animated wow fadeInUp" data-wow-delay=".4s">
                 Zapraszamy na wypozytczek nad morze <br>do malowniczej wsi Wicie
