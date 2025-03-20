@@ -2,7 +2,7 @@
   <div class="slider-area pos-rel">
     <div
         class="single-slider slider-height pos-rel d-flex align-items-center align-items-lg-end"
-        style="background-image: url(/img/slider/slider1.jpg);"
+        style="background-image: url(/images/header2.png);"
     >
       <div class="container">
         <div class="row">
@@ -12,7 +12,7 @@
                 A mo<del style="color:red;text-decoration: line-through !important;">ż</del>rze Wicie ?
               </h1>
               <h6 class="sub-title2 mb-40 animated wow fadeInUp" data-wow-delay=".4s">
-                Zapraszamy na wypozytczek nad morze <br>do malowniczej wsi Wicie
+                Zapraszamy na wypoczynek nad morze <br>do malowniczej wsi Wicie
               </h6>
               <ul class="btn-list mb-45 animated wow fadeInUp" data-wow-delay=".5s">
                 <li>
@@ -129,4 +129,10 @@ onMounted(async () => {
   setInterval(fetchWeather, 900000);
 });
 </script>
-
+<style lang="scss" scoped>
+.single-slider {
+  @media screen and (max-width: 992px) {
+    background-image: url(/images/headermobile.png) !important;
+  }
+}
+</style>

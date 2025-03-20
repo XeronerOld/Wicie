@@ -1,29 +1,22 @@
 <template>
   <div>
-    <div class="slider-area pos-rel" style="height: 300px; overflow: hidden;">
-      <div
-          class="single-slider slider-height pos-rel d-flex align-items-center align-items-lg-end"
-          style="background-image: url(/images/aktualnosci/radosc-druga-odbudowa-plazy/main.jpg); background-position: center; height: 300px;"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-12">
-              <div class="page-title text-center mt-0 pb-50">
-                <h1 class="text-white">ODBUDOWA PLAŻY</h1>
-                <div class="breadcrumb">
-                  <ul class="breadcrumb-list">
-                    <li>
-                      <NuxtLink to="/aktualnosci">Aktualności</NuxtLink>
-                    </li>
-                    <li>
-                      <NuxtLink
-                          to="/aktualnosci/radosc-druga-odbudowa-plazy">
-                        ODBUDOWA PLAŻY
-                      </NuxtLink>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="page-title pt-6 text-center">
+            <h1 class="">ODBUDOWA PLAŻY</h1>
+            <div class="breadcrumb">
+              <ul class="breadcrumb-list">
+                <li>
+                  <NuxtLink to="/aktualnosci">Aktualności</NuxtLink>
+                </li>
+                <li>
+                  <NuxtLink
+                      to="/aktualnosci/radosc-druga-odbudowa-plazy">
+                    ODBUDOWA PLAŻY
+                  </NuxtLink>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -33,7 +26,12 @@
     <section class="events-list-area pt-40 pb-70">
       <div class="container">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 col-lg-4">
+            <div class="content-image mt-0 mb-5">
+              <img src="/images/aktualnosci/radosc-druga-odbudowa-plazy/main.jpg" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-12 col-lg-8">
             <div class="pb-50 pr-30">
               <h1>Radość druga: ODBUDOWA PLAŻY</h1>
               <p>

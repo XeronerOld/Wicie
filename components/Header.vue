@@ -14,42 +14,30 @@
           </div>
 
           <!-- Menu (widoczne na dużych ekranach) -->
-          <div class="col-xl-7 col-lg-8 d-none d-lg-block">
+          <div class="col-xl-10 col-lg-8 d-none d-lg-block">
             <div class="main-menu menu-01 text-right">
               <nav>
                 <ul>
                   <li><a href="/">Strona Główna</a></li>
-                  <li>
-                    <a href="javascript:void(0);">O Wiciach <i class="far fa-chevron-down"></i></a>
-                    <ul class="submenu">
-                      <li><NuxtLink to="/historia">Historia</NuxtLink></li>
-                      <li><NuxtLink to="/geografia">Geografia</NuxtLink></li>
-                      <li><NuxtLink to="/foto-wicie">Foto Wicie</NuxtLink></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0);">Dla turystów <i class="far fa-chevron-down"></i></a>
-                    <ul class="submenu">
-                      <li><NuxtLink to="/warto-odwiedzic">Warto odwiedzić</NuxtLink></li>
-                      <li><NuxtLink to="/atrakcje">Atrakcje</NuxtLink></li>
-                      <li><NuxtLink to="/spanko">Spanko</NuxtLink></li>
-                      <li><NuxtLink to="/jedzonko">Jedzonko</NuxtLink></li>
-                    </ul>
-                  </li>
+                  <li><NuxtLink to="/historia">Historia</NuxtLink></li>
+                  <li><NuxtLink to="/geografia">Geografia</NuxtLink></li>
+                  <li><NuxtLink to="/foto-wicie">Foto Wicie</NuxtLink></li>
+                  <li><NuxtLink to="/warto-odwiedzic">Warto odwiedzić</NuxtLink></li>
+                  <li><NuxtLink to="/atrakcje">Atrakcje</NuxtLink></li>
+                  <li><NuxtLink to="/spanko">Spanko</NuxtLink></li>
+                  <li><NuxtLink to="/jedzonko">Jedzonko</NuxtLink></li>
+                  <li><NuxtLink to="/aktualnosci">Aktualności</NuxtLink></li>
                 </ul>
               </nav>
-            </div>
-          </div>
-
-          <!-- Przycisk kontaktowy i hamburger -->
-          <div class="col-xl-3 col-md-6 col-6 text-right">
-            <div class="main-header-right-one d-none d-xl-block">
-              <div class="donate">
-                <NuxtLink to="/aktualnosci" class="theme_btn active-btn ">
-                  Aktualności <i class="fal fa-newspaper"></i>
-                </NuxtLink>
+              <div class="hamburger-menu d-md-block d-lg-none">
+                <a href="javascript:void(0);" @click="toggleMobileMenu">
+                  <i class="far fa-bars"></i>
+                </a>
               </div>
             </div>
+          </div>
+          <!-- Przycisk kontaktowy i hamburger -->
+          <div class="col-xl-0 col-md-0 col-6 text-right">
             <div class="hamburger-menu d-md-block d-lg-none">
               <a href="javascript:void(0);" @click="toggleMobileMenu">
                 <i class="far fa-bars"></i>
@@ -65,23 +53,13 @@
       <nav>
         <ul>
           <li><NuxtLink to="/" @click="toggleMobileMenu">Strona Główna</NuxtLink></li>
-          <li>
-            <a href="javascript:void(0);" @click="toggleMobileMenu">O Wiciach</a>
-            <ul class="submenu">
-              <li><NuxtLink to="/historia" @click="toggleMobileMenu">Historia</NuxtLink></li>
-              <li><NuxtLink to="/geografia" @click="toggleMobileMenu">Geografia</NuxtLink></li>
-              <li><NuxtLink to="/foto-wicie" @click="toggleMobileMenu">Foto Wicie</NuxtLink></li>
-            </ul>
-          </li>
-          <li>
-            <a href="javascript:void(0);" @click="toggleMobileMenu">Dla turystów</a>
-            <ul class="submenu">
-              <li><NuxtLink to="/warto-odwiedzic" @click="toggleMobileMenu">Warto odwiedzić</NuxtLink></li>
-              <li><NuxtLink to="/atrakcje" @click="toggleMobileMenu">Atrakcje</NuxtLink></li>
-              <li><NuxtLink to="/spanko" @click="toggleMobileMenu">Spanko</NuxtLink></li>
-              <li><NuxtLink to="/jedzonko" @click="toggleMobileMenu">Jedzonko</NuxtLink></li>
-            </ul>
-          </li>
+          <li><NuxtLink to="/historia" @click="toggleMobileMenu">Historia</NuxtLink></li>
+          <li><NuxtLink to="/geografia" @click="toggleMobileMenu">Geografia</NuxtLink></li>
+          <li><NuxtLink to="/foto-wicie" @click="toggleMobileMenu">Foto Wicie</NuxtLink></li>
+          <li><NuxtLink to="/warto-odwiedzic" @click="toggleMobileMenu">Warto odwiedzić</NuxtLink></li>
+          <li><NuxtLink to="/atrakcje" @click="toggleMobileMenu">Atrakcje</NuxtLink></li>
+          <li><NuxtLink to="/spanko" @click="toggleMobileMenu">Spanko</NuxtLink></li>
+          <li><NuxtLink to="/jedzonko" @click="toggleMobileMenu">Jedzonko</NuxtLink></li>
           <li><NuxtLink to="/aktualnosci" @click="toggleMobileMenu">Aktualności</NuxtLink></li>
         </ul>
       </nav>
@@ -147,10 +125,10 @@ onUnmounted(() => {
   left: 0;
   width: 100%;
   z-index: 999;
-  background-color: #1d2124;
+  background-color: #fff;
   li {
     a {
-      color:white;
+      color:#000;
     }
   }
 }
@@ -158,6 +136,7 @@ onUnmounted(() => {
 /* Styl dla głównego obszaru nagłówka */
 .main-header-area {
   padding: 0; /* Dodaj padding dla lepszego wyglądu */
+  background: #fff;
 }
 .logo {
   height: 70px;
@@ -211,7 +190,7 @@ onUnmounted(() => {
 @media (max-width: 991px) {
   .main-header-area {
     padding: 10px 0;
-    background: #1d2124;
+    background: #fff;
   }
 
   .logo img {

@@ -128,7 +128,7 @@
 
 <style scoped>
 .footer-area {
-  background-color: #f5f5f5; /* Jasnobeżowe tło zgodne z morzewicie.pl */
+  background-color: transparent; /* Jasnobeżowe tło zgodne z morzewicie.pl */
   color: #333; /* Główny kolor tekstu */
 }
 
@@ -163,7 +163,7 @@
 }
 
 .contact-value a {
-  color: #00aa55; /* Pomarańczowy kolor dla linków */
+  color: #ff6000; /* Pomarańczowy kolor dla linków */
   text-decoration: none;
 }
 
@@ -173,7 +173,7 @@
 
 .contact-value i {
   margin-right: 8px;
-  color: #00aa55; /* Dopasowanie koloru ikony do linków */
+  color: #ff6000; /* Dopasowanie koloru ikony do linków */
 }
 
 .contact-value small {
@@ -181,7 +181,7 @@
 }
 
 .black-bg-soft2 {
-  background-color: #e0e0e0; /* Lekko ciemniejsze tło dla dolnej części */
+  background-color: transparent; /* Lekko ciemniejsze tło dla dolnej części */
   color: #333;
 }
 

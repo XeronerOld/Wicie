@@ -1,7 +1,7 @@
 <template>
   <section class="service-area pos-rel">
     <div class="container">
-      <div class="service-bg pl-50 pr-50 pb-50 pt-50 white-bg">
+      <div class="service-bg ">
         <div class="row">
           <div class="col-12 mb-10">
             <h6 class="left_line pl-55">&nbsp;</h6>

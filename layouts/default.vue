@@ -50,12 +50,22 @@ const handleAccept = () => {
   text-decoration: none !important;
 }
 .gallery {
-  background: #fff;
+  background: transparent;
 }
 body {
   background: #fff;
+  color:#000;
+  background-image: url(/images/tlo.jpg);
 }
 html body a {
   color:#000;
+}
+
+@media screen and (max-width: 768px) {
+  .header-subpage {
+    img {
+      opacity: .2;
+    }
+  }
 }
 </style>

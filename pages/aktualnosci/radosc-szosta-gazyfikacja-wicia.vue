@@ -1,38 +1,37 @@
 <template>
   <div>
-    <div class="slider-area pos-rel" style="height: 300px; overflow: hidden;">
-      <div
-          class="single-slider slider-height pos-rel d-flex align-items-center align-items-lg-end"
-          style="background-image: url(/images/aktualnosci/radosc-szosta-gazyfikacja-wicia/main.jpg); background-position: center; height: 300px;"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-12">
-              <div class="page-title text-center mt-0 pb-50">
-                <h1>GAZYFIKACJA WICIA</h1>
-                <div class="breadcrumb">
-                  <ul class="breadcrumb-list">
-                    <li>
-                      <NuxtLink to="/aktualnosci">Aktualności</NuxtLink>
-                    </li>
-                    <li>
-                      <NuxtLink to="/aktualnosci/radosc-szosta-gazyfikacja-wicia">
-                        GAZYFIKACJA WICIA
-                      </NuxtLink>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="page-title pt-6 text-center">
+            <h1>GAZYFIKACJA WICIA</h1>
+            <div class="breadcrumb">
+              <ul class="breadcrumb-list">
+                <li>
+                  <NuxtLink to="/aktualnosci">Aktualności</NuxtLink>
+                </li>
+                <li>
+                  <NuxtLink to="/aktualnosci/radosc-szosta-gazyfikacja-wicia">
+                    GAZYFIKACJA WICIA
+                  </NuxtLink>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <!--events-details-area start-->
     <section class="events-list-area pt-40 pb-70">
       <div class="container">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 col-lg-4">
+                      <div class="content-image">
+                        <img src="/images/aktualnosci/radosc-szosta-gazyfikacja-wicia/main.jpg" class="img-fluid">
+                      </div>
+          </div>
+          <div class="col-12 col-lg-8">
             <div class="pb-50 pr-30">
               <h1>Radość szósta: GAZYFIKACJA WICIA</h1>
               <p>

@@ -182,7 +182,7 @@ const objects = [
     "email": "info@poranek.net.pl",
     "phone": "602 730 355",
     "facebook": "",
-    "image_url": "/img/spanko/zewnętrze25.jpg"
+    "image_url": "/img/spanko/zewnetrze25.jpg"
   },
   {
     "name": "Promyk - domki letniskowe Joanna Lorek",
@@ -292,10 +292,10 @@ onMounted(() => {
 <style scoped>
 .gallery {
   box-shadow: 0px 16px 32px 0px rgba(56, 65, 63, 0.04);
-  background: #fff;
+  background: transparent;
 }
 .text-green {
-  color: #00aa55;
+  color: #ff6000;
 }
 .gallery__img {
   height: 150px;

@@ -1,30 +1,35 @@
 <template>
-  <div class="slider-area pos-rel" style="height: 300px; overflow: hidden;">
-    <div
-        class="single-slider slider-height pos-rel d-flex align-items-center align-items-lg-end"
-        style="background-image: url(/img/slider/slider1.jpg); height: 300px;"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="page-title text-center mt-0 pb-50">
-              <h1>Aktualności</h1>
-              <div class="breadcrumb">
-                <ul class="breadcrumb-list">
-                  <li><a href="/">Strona Główna</a></li>
-                  <li>
-                    <NuxtLink class="active" to="/aktualnosci">Aktualności</NuxtLink>
-                  </li>
-                </ul>
-              </div>
+  <div
+      class="header-subpage"
+      style="padding-top: 90px;background-position: right; height: 350px; display: flex; align-items: center;">
+    <img src="/images/herb.png" style="width: 200px;position: absolute;top:100px;right: 5%;" alt="">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="page-title pt-0 text-center">
+            <h1>Aktualności</h1>
+            <div class="breadcrumb">
+              <ul class="breadcrumb-list">
+                <li><a href="/">Strona Główna</a></li>
+                <li>
+                  <NuxtLink class="active" to="/aktualnosci">Aktualności</NuxtLink>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-  <!--news-area star-->
+  <!--    <div class="container">-->
+  <!--      <div class="row">-->
+  <!--        <div class="col-12">-->
+  <!--          <div class="content-image">-->
+  <!--            <img src="/img/slider/slider1.jpg" class="img-fluid">-->
+  <!--          </div>-->
+  <!--        </div>-->
+  <!--      </div>-->
+  <!--    </div>-->
   <div class="container mt-50">
     <div class="row">
       <div class="col-12 col-lg-6" v-for="n in news">

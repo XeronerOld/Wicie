@@ -1,30 +1,32 @@
 <template>
   <div>
-    <div class="slider-area pos-rel" style="height: 300px; overflow: hidden;">
-      <div
-          class="single-slider slider-height pos-rel d-flex align-items-center align-items-lg-end"
-          style="background-image: url(/images/aktualnosci/lato-2025-z-nowymi-rodzinnymi-festynami-juz-niebawem-tymczasem-wspomnienie-edycji-sprzed-roku/main.jpg); background-position: top; height: 300px;"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-12">
-              <div class="page-title text-center mt-0 pb-50">
-                <h1>Lato 2025</h1>
-                <div class="breadcrumb">
-                  <ul class="breadcrumb-list">
-                    <li>
-                      <NuxtLink to="/aktualnosci">Aktualności</NuxtLink>
-                    </li>
-                    <li>
-                      <NuxtLink
-                          to="/aktualnosci/lato-2025-z-nowymi-rodzinnymi-festynami-juz-niebawem-tymczasem-wspomnienie-edycji-sprzed-roku">
-                        Lato 2025
-                      </NuxtLink>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="page-title pt-6 text-center">
+            <h1>Lato 2025</h1>
+            <div class="breadcrumb">
+              <ul class="breadcrumb-list">
+                <li>
+                  <NuxtLink to="/aktualnosci">Aktualności</NuxtLink>
+                </li>
+                <li>
+                  <NuxtLink
+                      to="/aktualnosci/lato-2025-z-nowymi-rodzinnymi-festynami-juz-niebawem-tymczasem-wspomnienie-edycji-sprzed-roku">
+                    Lato 2025
+                  </NuxtLink>
+                </li>
+              </ul>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="content-image">
+            <img src="/images/aktualnosci/lato-2025-z-nowymi-rodzinnymi-festynami-juz-niebawem-tymczasem-wspomnienie-edycji-sprzed-roku/main.jpg" class="img-fluid">
           </div>
         </div>
       </div>

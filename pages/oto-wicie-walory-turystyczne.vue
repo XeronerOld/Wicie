@@ -1,25 +1,23 @@
 <template>
   <div>
-    <div class="slider-area pos-rel" style="height: 300px; overflow: hidden;">
-      <div
-          class="single-slider slider-height pos-rel d-flex align-items-center align-items-lg-end"
-          style="background-image: url(/images/walory-turystyczne/12.jpg); height: 300px;"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-12">
-              <div class="page-title text-center mt-0 pb-50">
-                <h1>Walory turystyczne</h1>
-                <div class="breadcrumb">
-                  <ul class="breadcrumb-list">
-                    <li>
-                      <NuxtLink to="/historia">Historia</NuxtLink>
-                    </li>
-                    <li>
-                      <NuxtLink to="/oto-wicie-walory-turystyczne">Walory turystyczne</NuxtLink>
-                    </li>
-                  </ul>
-                </div>
+    <div
+        class="header-subpage"
+        style="padding-top: 90px;background-position: right; height: 350px; display: flex; align-items: center;">
+      <img src="/images/herb.png" style="width: 200px;position: absolute;top:100px;right: 5%;" alt="">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="page-title pt-0 text-center">
+              <h1>Walory turystyczne</h1>
+              <div class="breadcrumb">
+                <ul class="breadcrumb-list">
+                  <li>
+                    <NuxtLink to="/historia">Historia</NuxtLink>
+                  </li>
+                  <li>
+                    <NuxtLink to="/oto-wicie-walory-turystyczne">Walory turystyczne</NuxtLink>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -131,7 +129,7 @@ useHead({
 });
 </script>
 
-<style scoped>
+<style >
 .single-slider {
   min-height: initial;
 }

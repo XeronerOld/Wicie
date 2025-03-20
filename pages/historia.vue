@@ -1,14 +1,14 @@
 <template>
   <div>
-    <section class="page-title-area" style="background-image: url(/img/historia/home_farm_sectionbg5.jpg);">
+    <section class="page-title-area" style="background-image: url(/img/historia/home_farm_sectionbg5.jpg);height: 500px;  min-height:0; margin-bottom: 50px;">
       <div class="container">
         <div class="row">
           <div class="col-xl-12">
             <div class="page-title text-center">
-              <h1>Nazwa naszej miejscowości to <br> WICIE a nie Wici</h1>
+              <h1 style="color:#fff;">Nazwa naszej miejscowości to <br> WICIE a nie Wici</h1>
               <div class="breadcrumb">
                 <ul class="breadcrumb-list">
-                  <li><a href="/">Strona Główna</a></li>
+                  <li><a style="color:#fff;" href="/">Strona Główna</a></li>
                   <li>
                     <NuxtLink to="/historia">Historia</NuxtLink>
                   </li>
@@ -22,11 +22,14 @@
     <div class="container text-white pb-5">
       <!-- Sekcja nagłówka i cytatu -->
       <div class="row justify-content-center text-center mb-20 mt-50 mt-sm-0">
-        <div class="col-12 col-md-10 col-lg-8">
-          <p class="lead">
-            „Wykaz nazw miejscowości Ministerstwa Administracji i Cyfryzacji podaje formę dopełniacza - Wicia,
-            z czego należy wnosić, że jest to rzeczownik nijaki, to Wicie, jak np. mycie – mycia.”
-            <span class="d-block mt-2"><strong>Prof. Katarzyna Kłosińska</strong></span>
+        <div class="col-12 ">
+          <p class="lead" >
+            „Wykaz nazw miejscowości Ministerstwa Administracji i Cyfryzacji podaje formę dopełniacza - Wicia
+            <br>
+            z czego należy wnosić, że jest to rzeczownik nijaki, to Wicie,  jak np. mycie – mycia”
+            <br>
+            <br>
+            <b>Prof. Katarzyna Kłosińska</b>
           </p>
         </div>
         <div class="col-12">
@@ -57,7 +60,7 @@
                 cenią sobie wypoczynek w ciszy i spokoju. Miejscowość położona jest na 262 km polskiego wybrzeża i stanowi
                 jego dokładny geograficzny środek.</p>
 
-              <h3>Poznaj Wicie bliżej</h3>
+              <h3 class="text-dark">Poznaj Wicie bliżej</h3>
               <div class="d-flex flex-column align-items-start">
                 <nuxt-link class="theme_btn mb-10 py-2" to="/oto-wicie-walory-turystyczne">Walory turystyczne <i class="fal fa-long-arrow-right"></i></nuxt-link>
                 <nuxt-link class="theme_btn mb-10 py-2" to="/oto-wicie-bogactwa-przyrody">Bogactwa przyrody <i class="fal fa-long-arrow-right"></i></nuxt-link>
@@ -122,26 +125,5 @@ useHead({
 
 <style scoped>
 /* Dostosowanie dla mniejszych ekranów */
-@media (max-width: 991px) {
-  .single-slider {
-    min-height: auto; /* Elastyczna wysokość na urządzeniach mobilnych */
-    padding: 2rem 0;
-  }
 
-  h1 {
-    font-size: 1.75rem; /* Mniejszy nagłówek */
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  h5 {
-    font-size: 1.1rem;
-  }
-
-  .lead {
-    font-size: 1rem; /* Mniejszy tekst cytatu */
-  }
-}
 </style>

@@ -1,34 +1,36 @@
 <template>
   <div>
-    <div class="slider-area pos-rel" style="height: 300px; overflow: hidden;">
-      <div
-          class="single-slider slider-height pos-rel d-flex align-items-center align-items-lg-end"
-          style="background-image: url(/images/aktualnosci/28-marca-2024-r-wojt-gminy-darlowo-podpisal-z-firma-krezel-umowe-na-przebudowe-ulic-morskiej-i-wczasowej/main.jpg); background-position: top; height: 300px;"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-12">
-              <div class="page-title text-center mt-0 pb-50">
-                <h1>28 marca 2024 r.</h1>
-                <div class="breadcrumb">
-                  <ul class="breadcrumb-list">
-                    <li>
-                      <NuxtLink to="/aktualnosci">Aktualności</NuxtLink>
-                    </li>
-                    <li>
-                      <NuxtLink
-                          to="/aktualnosci/28-marca-2024-r-wojt-gminy-darlowo-podpisal-z-firma-krezel-umowe-na-przebudowe-ulic-morskiej-i-wczasowej">
-                        28 marca 2024 r.
-                      </NuxtLink>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="page-title pt-6 text-center">
+            <h1>28 marca 2024 r.</h1>
+            <div class="breadcrumb">
+              <ul class="breadcrumb-list">
+                <li>
+                  <NuxtLink to="/aktualnosci">Aktualności</NuxtLink>
+                </li>
+                <li>
+                  <NuxtLink
+                      to="/aktualnosci/28-marca-2024-r-wojt-gminy-darlowo-podpisal-z-firma-krezel-umowe-na-przebudowe-ulic-morskiej-i-wczasowej">
+                    28 marca 2024 r.
+                  </NuxtLink>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
+<!--    <div class="container">-->
+<!--      <div class="row">-->
+<!--        <div class="col-12">-->
+<!--          <div class="content-image">-->
+<!--            <img src="/images/aktualnosci/28-marca-2024-r-wojt-gminy-darlowo-podpisal-z-firma-krezel-umowe-na-przebudowe-ulic-morskiej-i-wczasowej/main.jpg" class="img-fluid">-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
     <!--events-details-area start-->
     <section class="events-list-area pt-40 pb-70">
       <div class="container">
@@ -36,7 +38,7 @@
           <div class="col-12">
             <div class="pb-50 pr-30">
               <h1>Wspaniała wiadomość dla mieszkańców Wicia!</h1>
-              <div class="highlight">
+              <div class="">
                 <p>28 marca 2024 r. Wójt Gminy Darłowo podpisał z firmą KRĘŻEL umowę na przebudowę ulic Morskiej i Wczasowej. Ta inwestycja przyniesie wiele korzyści mieszkańcom oraz przybywającym do nas turystom.</p>
               </div>
               <br>
